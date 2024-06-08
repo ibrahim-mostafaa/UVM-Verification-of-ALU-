@@ -1,0 +1,7 @@
+-work work -vopt -sv -mfcu -cuname 
++define+UVM_CMDLINE_NO_DPI +define+UVM_REGEX_NO_DPI +define+UVM_NO_DPI 
+"+incdir+S:/UVM_TB/ALU_UVM-main/ALU/uvm-1.2/uvm-1.2/src" 
+"+incdir+S:/UVM_TB/ALU_UVM-main/ALU/pack1"
+-stats=none 
+"S:/UVM_TB/ALU_UVM-main/ALU/TB_Top.sv"
+
