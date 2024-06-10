@@ -31,12 +31,6 @@ DUT dut (
     .Z_flag(Z_flag)
 );
 
-// Simulation termination
-    initial begin
-        #1000;
-        $finish();
-    end
-
 //run test
 initial begin
     uvm_config_db #(virtual intf)::set(null,"uvm_test_top","my_vif",alu_intf); // my_vif = alu_intf , it now points to it. 
